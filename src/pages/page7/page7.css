@@ -1,0 +1,23 @@
+.pill-button {
+    width: 200px;
+    height: 60px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.page7-kite-fly {
+    animation: page7-kite-fly 4s ease-in-out infinite;
+    transform-origin: 0% bottom;
+}
+
+@keyframes page7-kite-fly {
+    0%,100%{
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-3deg);
+    }
+}
